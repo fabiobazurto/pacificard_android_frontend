@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">pacifico</string>
+    <string name="cardSelectionText">Seleccione la marca de tarjeta que prefieras</string>
+    <string name="htmlMastercard"><h3>Mastercard Platinum</h3><p></p></string>
+    <string name="MastercardTitle">Mastercard Platinum</string>
+    <string name="MastercardParagraph">Obten el beneficio y prestigio que ofrece una tarjeta Mastercard, junto al más variado financiamiento, a través de la exclusiva Mastercard Plantinum.</string>
+    <string name="cardSelectionAction">Aceptar tarjeta</string>
+    <string name="cardSelectionActionTitle">Conoce más beneficios</string>
+
+    <string name="claveTransaccional">Clave transaccional</string>
+    <string name="claveparagraph">Hemos enviado una clave al correo electrónico que registraste:jxxxxxx@the.com</string>
+    <string name="confirmationText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</string>
+    <string name="close">close</string>
+    <string name="felicidades">¡Felicidades!</string>
+    <string name="es_un_placer_tenerte_como_cliente">Es un placer tenerte como cliente</string>
+    <string name="hemos_enviado_un_correo_a_givaregpar_gmail_com_para_que_conozcas_todos_los_beneficios_de_tu_tarjeta">Hemos enviado un correo a: givaregpar@gmail.com, para que conozcas todos los beneficios de tu tarjeta.</string>
+    <string name="markertext">Tu tarjeta de crédito será enviada a la dirección de correspondencia que proporcionaste.</string>
+</resources>

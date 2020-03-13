@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/headerCardSelection"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@mipmap/bg_selection_card"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingBottom="60dp"
+            android:text="@string/app_name"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/txtSelecCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="center_horizontal"
+            android:text="@string/cardSelectionText"
+            android:textAppearance="@style/command"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMastercard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:contentDescription="img button"
+                android:foreground="@drawable/btn_logo_mastercard"
+
+                app:srcCompat="@drawable/btn_logo_mastercard" />
+
+            <Button
+                android:id="@+id/btnVisa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:contentDescription="img button"
+                android:foreground="@drawable/btn_logo_visa"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/btn_logo_visa" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <LinearLayout
+            android:id="@+id/lyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitleInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/MastercardTitle"
+                android:textAppearance="@style/titleone" />
+
+            <TextView
+                android:id="@+id/txtBlockInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/MastercardParagraph"
+                android:textAppearance="@style/paragraph" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/img_services" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtTitleAcction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/cardSelectionActionTitle"
+            android:textAppearance="@style/optionalTitle" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+
+            android:text="@string/cardSelectionAction"
+            android:textColor="@color/disabledColor"
+            android:background="@drawable/rounded_border_button"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
