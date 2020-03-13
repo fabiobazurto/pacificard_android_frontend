@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">pacifico</string>
+    <string name="app_name">CHALLENGE FABIO BAZURTO</string>
     <string name="cardSelectionText">Seleccione la marca de tarjeta que prefieras</string>
     <string name="htmlMastercard"><h3>Mastercard Platinum</h3><p></p></string>
     <string name="MastercardTitle">Mastercard Platinum</string>
@@ -15,4 +15,6 @@
     <string name="es_un_placer_tenerte_como_cliente">Es un placer tenerte como cliente</string>
     <string name="hemos_enviado_un_correo_a_givaregpar_gmail_com_para_que_conozcas_todos_los_beneficios_de_tu_tarjeta">Hemos enviado un correo a: givaregpar@gmail.com, para que conozcas todos los beneficios de tu tarjeta.</string>
     <string name="markertext">Tu tarjeta de crédito será enviada a la dirección de correspondencia que proporcionaste.</string>
+    <string name="todo">TODO</string>
+    <string name="solicitar_nueva_clave">Solicitar nueva clave</string>
 </resources>
